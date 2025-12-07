@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartify - E-Commerce Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <span>📍 Deliver to Buea </span>
+            </div>
+            <div class="header-right">
+                <a href="#">Customer Service</a>
+                <a href="#">Track Order</a>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+
+   
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-left">
+                    <h1 class="logo">Cartify</h1>
+                    <button class="menu-btn">☰ All</button>
+                </div>
+
+                <div class="search-bar">
+                    <select class="search-category">
+                        <option>All</option>
+                        <option>Electronics</option>
+                        <option>Fashion</option>
+                        <option>Home</option>
+                    </select>
+                    <input type="text" placeholder="Search Cartify" class="search-input">
+                    <button class="search-btn">🔍</button>
+                </div>
+
+                <div class="nav-right">
+                    <a href="#" class="nav-link">
+                        <span class="small">Hello, Guest</span>
+                        <span class="bold">Account</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <span class="small">Returns</span>
+                        <span class="bold">& Orders</span>
+                    </a>
+                    <a href="cart.html" class="cart-link">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="categories-bar">
+        <div class="container">
+            <a href="#">Electronics</a>
+            <a href="#">Fashion</a>
+            <a href="#">Home & Kitchen</a>
+            <a href="#">Sports</a>
+            <a href="#">Books</a>
+            <a href="#">Toys</a>
+            <a href="#">Beauty</a>
+            <a href="#">Automotive</a>
+        </div>
+    </div>
+
+    
+    <div class="banner">
+        <div class="container">
+            <h2>Today's Deals</h2>
+            <p>Save up to 50% on selected items</p>
+        </div>
+    </div>
+
+   
+    <div class="container">
+        <div class="products-section">
+            <h3>Recommended for You</h3>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Get to Know Us</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Make Money</h4>
+                    <a href="#">Sell on Cartify</a>
+                    <a href="#">Affiliate Program</a>
+                    <a href="#">Advertise</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Payment</h4>
+                    <a href="#">Your Account</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Shipping</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Help</h4>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <h2 class="logo">Cartify</h2>
+                <p>&copy; 2025 Cartify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Cartify</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <span>📍 Deliver to Buea</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-left">
+                    <h1 class="logo">Cartify</h1>
+                </div>
+                <div class="nav-right">
+                    <a href="index.html" class="back-link">← Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container cart-container">
+        <h2>Shopping Cart (<span id="cartItemCount">0</span> items)</h2>
+
+        <div class="cart-layout">
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be loaded here -->
+            </div>
+
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">0.00FCFA</span>
+                </div>
+                
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span id="total">0.00FCFA</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+                <a href="index.html" class="continue-shopping-btn">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <h2 class="logo">Cartify</h2>
+                <p>&copy; 2025 Cartify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
