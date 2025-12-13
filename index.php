@@ -1,5 +1,5 @@
 <?php
-require_once 'db-onnect.php';
+require_once 'db-connect.php';
 $conn = getConnection();
 
 // Get all products
@@ -19,7 +19,10 @@ $result = $conn->query($sql);
     <div class="container">
         <header>
             <h1>🛒 Cartify Product Management</h1>
-            <a href="add-product.html" class="btn btn-primary">➕ Add New Product</a>
+            <div>
+                <a href="add-product.php" class="btn btn-primary">➕ Add New Product</a>
+                <a href="shop.php" class="btn btn-primary">View Shop</a>
+            </div>
         </header>
 
         <div class="products-table">
@@ -86,7 +89,7 @@ $result = $conn->query($sql);
                     </tbody>
                 </table>
             <?php else: ?>
-                <p class="no-products">No products found. <a href="add-product.html">Add your first product!</a></p>
+                <p class="no-products">No products found. <a href="add-product.php">Add your first product!</a></p>
             <?php endif; ?>
         </div>
     </div>
