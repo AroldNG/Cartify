@@ -164,51 +164,7 @@ $result = $conn->query($sql);
             </div>
         </div>
 
-        <!-- Category Sections -->
-        <div class="grid md:grid-cols-2 gap-6">
-            <?php
-            // Get Electronics products
-            $electronics_sql = "SELECT * FROM products WHERE category = 'Electronics' LIMIT 4";
-            $electronics_result = $conn->query($electronics_sql);
-            ?>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Electronics Deals</h3>
-                <div class="grid grid-cols-2 gap-4">
-                    <?php while($product = $electronics_result->fetch_assoc()): ?>
-                        <div class="text-center">
-                            <img src="<?php echo htmlspecialchars($product['image_url']); ?>" 
-                                 alt="<?php echo htmlspecialchars($product['name']); ?>" 
-                                 class="w-full h-32 object-cover rounded mb-2">
-                            <p class="text-sm text-gray-700 font-medium">
-                                <?php echo number_format($product['price'], 0, ',', ' '); ?> FCFA
-                            </p>
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-            </div>
-            
-            <?php
-            // Get Fashion products
-            $fashion_sql = "SELECT * FROM products WHERE category = 'Fashion' LIMIT 4";
-            $fashion_result = $conn->query($fashion_sql);
-            ?>
-            <div class="bg-white rounded-lg shadow p-6">
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Fashion Trends</h3>
-                <div class="grid grid-cols-2 gap-4">
-                    <?php while($product = $fashion_result->fetch_assoc()): ?>
-                        <div class="text-center">
-                            <img src="<?php echo htmlspecialchars($product['image_url']); ?>" 
-                                 alt="<?php echo htmlspecialchars($product['name']); ?>" 
-                                 class="w-full h-32 object-cover rounded mb-2">
-                            <p class="text-sm text-gray-700 font-medium">
-                                <?php echo number_format($product['price'], 0, ',', ' '); ?> FCFA
-                            </p>
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-            </div>
-        </div>
-    </div>
+       
 
     <!-- Footer -->
     <footer class="footer">
