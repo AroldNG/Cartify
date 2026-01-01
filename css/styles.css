@@ -575,12 +575,7 @@ body {
     margin-top: 60px;
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
-    margin-bottom: 40px;
-}
+
 
 .footer-column h4 {
     margin-bottom: 15px;

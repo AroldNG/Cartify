@@ -163,7 +163,7 @@ $result = $conn->query($sql);
                 <?php endif; ?>
             </div>
         </div>
-
+    </div>
        
 
     <!-- Footer -->

@@ -2,8 +2,8 @@
 An e-commerce platform with user-friendly shopping and built-in analytics for admin insights.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Node.js](https://img.shields.io/badge/Backend-Node.js-brightgreen.svg)]()
-[![MongoDB](https://img.shields.io/badge/Database-MongoDB-blue.svg)]()
+[![php](https://img.shields.io/badge/Backend-php-brightgreen.svg)]()
+[![MySql](https://img.shields.io/badge/Database-MySql-blue.svg)]()
 [![Frontend](https://img.shields.io/badge/Frontend-React-blueviolet.svg)]()
 
 ---

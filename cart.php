@@ -24,7 +24,7 @@
                     <h1 class="logo">Cartify</h1>
                 </div>
                 <div class="nav-right">
-                    <a href="index.html" class="back-link">← Continue Shopping</a>
+                    <a href="shop.php" class="back-link">← Continue Shopping</a>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                     <span id="total">0.00FCFA</span>
                 </div>
                 <button class="checkout-btn">Proceed to Checkout</button>
-                <a href="index.html" class="continue-shopping-btn">Continue Shopping</a>
+                <a href="shop.php" class="continue-shopping-btn">Continue Shopping</a>
             </div>
         </div>
     </div>
